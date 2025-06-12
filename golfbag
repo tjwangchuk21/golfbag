@@ -93,7 +93,7 @@ int main() {
             if (!outFile) {
                 cout << "Error: Could not open file to save." << endl;
             } else {
-                for (const string& club : golfBag) {
+                for (const string club : golfBag) {
                     outFile << club << endl;
                 }
                 outFile.close();
